@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f2efed37;
+    background-image: url(https://shutterstock.7eer.net/c/38919/1636620/1305?trafcat=T3&trafsrc=Direct&u=https://www.shutterstock.com/image-photo/2261327067&sharedid=www.vecteezy.com&subId1=search-top&subId2=9b32062b-eb1e-4e7a-a850-2b74e38b2046&adtype=photo&adplacement=SRP&subId3=background_2261327067_top);
 }
 
 header {
@@ -46,7 +47,7 @@ section {
 }
 
 #hero {
-    background: url('hero-image.jpg') center/cover no-repeat;
+    background: ur center/cover no-repeat;
     color: #0b0101;
 }
 
@@ -82,4 +83,24 @@ footer {
     text-align: center;
     padding: 10px 0;
     
+}
+html{
+    scroll-behavior: smooth;
+}
+.my-div {
+    width: 300px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+h1,h2{
+    color: white;
+    background-color: grey;
+    text-align: center;
+    text-transform: capitalize;
+}
+img{
+    background-color: #14852c;
 }
